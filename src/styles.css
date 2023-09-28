@@ -1,0 +1,138 @@
+.outerContainer {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='1000' preserveAspectRatio='none' viewBox='0 0 1440 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='1440' height='1000' x='0' y='0' fill='rgba(58%2c 33%2c 143%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c131 C 57.6%2c191.4 172.8%2c450.6 288%2c433 C 403.2%2c415.4 460.8%2c70.4 576%2c43 C 691.2%2c15.6 748.8%2c269.4 864%2c296 C 979.2%2c322.6 1036.8%2c148.6 1152%2c176 C 1267.2%2c203.4 1382.4%2c381.6 1440%2c433L1440 1000L0 1000z' fill='rgba(102%2c 63%2c 164%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c526 C 96%2c603.8 288%2c902 480%2c915 C 672%2c928 768%2c614.6 960%2c591 C 1152%2c567.4 1344%2c755.8 1440%2c797L1440 1000L0 1000z' fill='rgba(94%2c 43%2c 183%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1440' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.outerContainer form {
+  border: 1px solid white;
+  padding: 100px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.mainh2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.deletebtn {
+  margin-left: 20px;
+}
+
+@-webkit-keyframes inkeyframes {
+  0% {
+    opacity: 0;
+    translate: 0 100%;
+  }
+  100% {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes inkeyframes {
+  0% {
+    opacity: 0;
+    translate: 0 100%;
+  }
+  100% {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+#back {
+  background: url("../public/Canada.gif");
+  background-blend-mode: screen;
+}
+
+.animate-in {
+  -webkit-animation: inkeyframes 0.5s both;
+          animation: inkeyframes 0.5s both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  z-index: 2 !important;
+}
+
+.banner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200vh;
+}
+
+.para-scroll {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-align: center;
+  width: 10%;
+}
+
+.second-div {
+  width: 100%;
+  height: 16%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-div h2 {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner #bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white url("heart.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  mix-blend-mode: screen;
+}
+/*# sourceMappingURL=styles.css.map */
